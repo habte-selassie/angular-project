@@ -1,13 +1,28 @@
 <!-- <app-add-candidate></app-add-candidate> -->
-<app-read-candidate>
+<!-- <app-read-candidate>
 
-</app-read-candidate>
+</app-read-candidate> -->
 
    <!-- <router-outlet> -->
 <!-- <div>
     <div class="small-table">
      <h1>HRMS System</h1>
-    </div>
+    </div> -->
+
+    <mat-card>
+      <mat-card-content class="small-table">
+      
+            <h1>HRMS System</h1>
+
+            <mat-card class="image-card">
+               <img mat-card-sm-image class="image1" src="../assets/hr.jpg" alt="hr">
+             </mat-card>
+       
+        
+
+      </mat-card-content>
+    </mat-card>
+    
 
     
 <div>
@@ -42,27 +57,79 @@
                </div>
              </section>
          
-      
+             <mat-card class="image-card">
+               <img mat-card-sm-image class="image" src="../assets/hr.jpg" alt="hr">
+             </mat-card>
+                
           
          </mat-card-content>
        </mat-card>
   
-     <div class="big-table">
-         <nav>
-            <a routerLink="/" id="home">Home</a>
-            <a routerLink="/candidate" id="candidate">Candidate List</a>
-            <a routerLink="/company" id="company">Add Candidate</a>
-            <a routerLink="/Employee" id="employee">Employees List</a>
-            <a routerLink="/department" id="department">Company List</a>
-            <a routerLink="/salary" id="salary">Add Company</a>
-            <a routerLink="/department" id="department">Department List</a>
-            <a routerLink="/salary" id="salary">Add Department</a>
-            <a routerLink="/department" id="department">Salary List</a>
-            <a routerLink="/salary" id="salary">Add Salary</a>
-            <a routerLink="/more" id="more">More</a>
-            <a routerLink="/logout" id="logout">Logout</a>
-         </nav>
-        </div>
-      </div> -->
+
+       <mat-card class="big-table"> 
+          <mat-card-content> 
+             <nav class="navigation">
+
+            
+               <a routerLink="/" id="home" class="box-link">
+                  <mat-icon class="link-icon">home</mat-icon>
+                  DashBoard
+               </a>
+               <a routerLink="/candidate" id="list-candidate" class="box-link">
+                  <mat-icon class="link-icon">people</mat-icon>
+                  Candidate List
+               </a>
+               <a routerLink="/company" id="add-candidate" class="box-link">
+                  <mat-icon class="link-icon">add_box</mat-icon>
+                  Add Candidate
+               </a>
+               <a routerLink="/Employee" id="list-employee" class="box-link">
+                  <mat-icon class="link-icon">group</mat-icon>
+                  Employee List
+               </a>
+               <a routerLink="/department" id="add-employee" class="box-link">
+                  <mat-icon class="link-icon">person_add</mat-icon>
+                  Add Employee
+               </a>
+               <a routerLink="/salary" id="list-company" class="box-link">
+                  <mat-icon class="link-icon">business</mat-icon>
+                  Company List
+               </a>
+               <a routerLink="/department" id="add-company" class="box-link">
+                  <mat-icon class="link-icon">attach_money</mat-icon>
+                  Add Company
+               </a>
+               <a routerLink="/salary" id="list-dept" class="box-link">
+                  <mat-icon class="link-icon">apartment</mat-icon>
+                  Department List
+               </a>
+               <a routerLink="/department" id="add-dept" class="box-link">
+                  <mat-icon class="link-icon">add_circle</mat-icon>
+                  Add Department
+               </a>
+               <a routerLink="/salary" id="list-salary" class="box-link">
+                  <mat-icon class="link-icon">payment</mat-icon>
+                  Salary List
+               </a>
+               <a routerLink="/salary" id="add-salary" class="box-link">
+                  <mat-icon class="link-icon">add_box</mat-icon>
+                  Add Salary
+               </a>
+               <a routerLink="/more" id="more" class="box-link">
+                  <mat-icon class="link-icon">more_vert</mat-icon>
+                  More
+               </a>
+               <a routerLink="/logout" id="logout" class="box-link">
+                  <mat-icon class="link-icon">exit_to_app</mat-icon>
+                  Logout
+               </a>
+            </nav> 
+           
+         </mat-card-content> 
+       </mat-card>
+     
+        
+      
+     
    
-   <!-- </router-outlet> -->
+   <!-- </router-outlet>-->

@@ -35,6 +35,7 @@ import { RouterModule } from '@angular/router';
 import { Routes } from '@angular/router';
 import {MatCardModule} from '@angular/material/card'
 import {MatTableModule} from '@angular/material/table'
+import { MatCardImage } from '@angular/material/card';
 
 const routes:Routes = [
   {path:'',component:AppComponent},
@@ -88,6 +89,7 @@ const routes:Routes = [
     RouterModule.forRoot(routes),
     MatCardModule,
     MatTableModule,
+    // MatCardImage
     
   ],
   exports:[

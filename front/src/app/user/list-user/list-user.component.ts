@@ -11,5 +11,5 @@ export class ListUserComponent {
   dataSource: any[] = [
     { position: 1, name: 'John Doe', age: 30, email: 'johndoe@example.com', department: 'IT', designation: 'Software Engineer', skills: 'Angular, TypeScript', experience: '5 years', salary: '$100,000', contact: '123-456-7890', address: '123 ABC Street' },
     // Add more data objects as needed
-  ]3
+  ]
 }
