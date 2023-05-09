@@ -139,10 +139,27 @@ section {
 }
 
 h1{
-    font-size: 30px;
+    font-size: 23px;
     padding-top: 20px;
     font-weight:900;
     color: #ffffff;
+    margin-left: 129px;
+    margin-top: -18px;
+}
+
+.image1-card {
+    width: 8%;
+    margin-left: 18px;
+    margin-top: -92px;
+    height: 93px;
+   
+}
+
+.image1 {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    background-color: #bd5f12;
 }
 
 h2{
@@ -183,15 +200,15 @@ margin-left: 115px;
 }
 
 #add-dept {
-    margin-left: 115px;
+    margin-left: 120px;
 }
 
 #list-salary {
-    margin-left: 55px;
+    margin-left: 65px;
 }
 
 #add-salary {
-    margin-left: 53px;
+    margin-left: 65px;
 }
 
 #more{
@@ -199,7 +216,7 @@ margin-left: 115px;
 } 
 
 #logout{
-    margin-left: 19px;
+    margin-left: 29px;
 }
 .image-card {
     width: 50%;
