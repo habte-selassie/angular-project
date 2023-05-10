@@ -27,9 +27,9 @@ nav{
 .btn-holder-card{
     width: 75%;
     margin-left: 323px;
-    height: 600px;
+    height: 610px;
     margin-top: 20px;
-    background-color: #b9b3b3;
+    background-color: #5ebecf;
 }
 
 section {
@@ -59,17 +59,17 @@ section {
     width: 400px;
     height: 42px;
     font-size: 20px;
-    margin-left: -30px; 
+    margin-left: 30px; 
     margin-top: 15px;
   }
 
   .big-table{
     width: 280px;
-    height: 800px;
+    height: 719px;
     color: #43c5c5;
     background-color: #1e1e1f;
     /* margin-left: 10px; */
-    margin-top: -50.65em;
+    margin-top: -50.68em;
 }
 
 .navigation {
@@ -173,55 +173,22 @@ h2{
     margin-left: 90px;
 }
 
-#list-candidate  {
-margin-left: 115px;
-}
-
-#add-candidate  {
-    margin-left: 115px;
-}
 
 #list-employee {
-    margin-left: 110px;
+    margin-left: 120px;
 }
 #add-employee {
-    margin-left: 110px;
-}
-
-#list-company {
-    margin-left: 100px;
-}
-#add-company {
-    margin-left: 100px;
-}
-
-#list-dept {
-    margin-left: 115px;
-}
-
-#add-dept {
     margin-left: 120px;
 }
 
-#list-salary {
-    margin-left: 65px;
-}
-
-#add-salary {
-    margin-left: 65px;
-}
-
-#more{
-    margin-left: 5px;
-} 
 
 #logout{
-    margin-left: 29px;
+    margin-left: 55px;
 }
 .image-card {
     width: 50%;
     margin-left: 460px;
-    margin-top: -420px;
+    margin-top: -200px;
     height: 360px;
 }
 
